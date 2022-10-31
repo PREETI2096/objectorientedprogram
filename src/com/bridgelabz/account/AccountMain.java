@@ -8,13 +8,13 @@ public class AccountMain {
 	Account account = new Account();
 	int choice = sc.nextInt();
 	switch (choice) {
-//	case 1 :
-//		System.out.println("The balance is:");
-//		account.viewBalance();
-//		break;
-//	case 2 :
-//		account.addBalance();
-//		break;
+	case 1 :
+		System.out.println("The balance is:");
+		account.viewBalance();
+		break;
+	case 2 :
+		account.addBalance();
+		break;
 	case 3:
 		account.withdrawBalance();      
 		break;
